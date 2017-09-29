@@ -1,0 +1,216 @@
+.container{
+	max-width: 940px;
+}
+
+p, li, a, select, input, button{
+	font-size: 16px;
+}
+
+#hero-banner{
+	padding: 0 0 15%;
+	background: url('../images/banner-home.jpg');
+	background-size: 75%;
+	background-repeat: no-repeat;
+	background-position: right bottom;
+}
+
+#hero-banner h1{
+	line-height: 1.5;
+	font-size: 5rem;
+	margin-bottom: 30px;
+}
+
+#hero-banner .btn-danger{
+	margin-top: 30px;
+	padding: 10px 30px;
+	border-radius: 20px;
+}
+
+.btn-danger{
+	background: #EE2E24;
+}
+
+#header{
+	padding: 10px 0 20px;
+}
+
+.bold{
+	font-weight: 700;
+}
+
+.red-text{
+	color: #EE2E24;
+}
+
+.section{
+	padding: 6rem 0;
+}
+
+#fiber-product{
+	background: #F6F6F6;
+}
+
+#fiber-product h2{
+	margin-bottom: 30px;
+}
+
+.video-wrap {
+	position: relative;
+	padding-bottom: 56.25%; /* 16:9 */
+	padding-top: 25px;
+	height: 0;
+}
+
+.video-wrap iframe {
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+}
+
+#fiber-product .product-item h4{
+	margin: 20px 0;
+	font-weight: 700;
+}
+
+#form-leads > .container{
+	padding: 10rem 15px;
+	background: url('../images/women-photo.png');
+	background-size: 45%;
+	background-position: right bottom;
+	background-repeat: no-repeat;
+}
+
+#form-leads h2{
+	line-height: 1.5;
+	margin-bottom: 20px;
+	font-weight: 700;
+}
+
+#form-leads .form-control{
+	padding: 10px 15px;
+	height: auto;
+}
+
+#package{
+	background: #F6F6F6;
+}
+
+#package .text-center{
+	margin-bottom: 20px;
+}
+
+.package-item{
+	overflow: hidden;
+	height: auto;
+	cursor: pointer;
+	position: relative;
+	margin-bottom: 20px;
+}
+
+.package-item > img{
+	position: absolute;
+	top: 0;
+	left: 0;
+}
+
+.package-item > span{
+	display: block;
+	float: right;
+	width: 92%;
+	height: 100%;
+	padding: 10px 20px;
+	background: #3b3b3b;
+	color: #FFF;
+	text-align: center;
+	transition: .3s ease all;
+	font-size: 14px;
+	border-radius: 7px;
+}
+
+.package-item > span:hover{
+	background: #EE2E24;
+}
+
+footer{
+	background: #2b2b2b;
+	color: #FFF;
+	padding: 5rem 0 1rem;
+}
+
+footer ul li{
+	display: inline;
+	margin-right: 10px;
+}
+
+footer ul li a{
+	color: #FFF;
+	font-size: 1.8rem;
+}
+
+footer p{
+	margin-bottom: 15px;
+}
+
+/*add css*/
+#form-leads .success {
+	padding: 20px;
+	background : #999;
+}
+
+#form-leads .success p {
+	padding: 20px;
+	background : #999;
+}
+
+#myModal .modal-header .modal-title{
+	font-weight: 600;
+    font-size: 25px;
+}
+
+#myModal .modal-body p{
+	padding: 50px;
+}
+
+/* Mobile Horizontal */
+@media (min-width: 320px) and (max-width: 767px){
+	.section{
+		padding: 2rem 0;
+	}
+
+	#header img{
+		width: 120px;
+	}
+
+	#hero-banner h1{
+		font-size: 3rem;
+	}
+
+	#form-leads > .container{
+		padding: 4rem 15px;
+		background: none;
+	}
+
+	.product-item{
+		margin-bottom: 5rem;
+	}
+
+}
+/* Tablet Big Screen */
+@media (min-width: 768px) and (max-width: 991px){
+
+
+}
+/* Desktop Small Screen */
+@media (min-width: 992px) and (max-width: 1200px){
+
+
+}
+/* Desktop Large Screen */
+@media (min-width: 1200px){
+
+}
+@media(min-width: 1440px){
+
+}
