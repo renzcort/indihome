@@ -1,33 +1,6 @@
 <!doctype html>
 <html>
 <head>
-<!-- Global Site Tag (gtag.js) - Google Analytics -->
-<script async src="https://www.googletagmanager.com/gtag/js?id=UA-106471409-1"></script>
-<script>
-  window.dataLayer = window.dataLayer || [];
-  function gtag(){dataLayer.push(arguments)};
-  gtag('js', new Date());
-
-  gtag('config', 'UA-106471409-1');
-</script>
-	
-<!-- Facebook Pixel Code -->
-<script>
-  !function(f,b,e,v,n,t,s)
-  {if(f.fbq)return;n=f.fbq=function(){n.callMethod?
-  n.callMethod.apply(n,arguments):n.queue.push(arguments)};
-  if(!f._fbq)f._fbq=n;n.push=n;n.loaded=!0;n.version='2.0';
-  n.queue=[];t=b.createElement(e);t.async=!0;
-  t.src=v;s=b.getElementsByTagName(e)[0];
-  s.parentNode.insertBefore(t,s)}(window, document,'script',
-  'https://connect.facebook.net/en_US/fbevents.js');
-  fbq('init', '1628169783901426');
-  fbq('track', 'PageView');
-</script>
-<noscript><img height="1" width="1" style="display:none"
-  src="https://www.facebook.com/tr?id=1628169783901426&ev=PageView&noscript=1"
-/></noscript>
-<!-- End Facebook Pixel Code -->
 	<!--Meta-->
 	<meta charset="utf-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1">
@@ -47,26 +20,21 @@
 </head>
 
 <body>
-
 	<main>
 		<div class="section" id="hero-banner">
-			<div id="header" class="">
-				<div class="container">
-					<p><img src="images/logo-metranet-tiny.png" class="img-responsive" alt=""></p>
-				</div>
-			</div><!-- /header -->
+			<img src="images/indihome-fiber-main.png" class="img-responsive" id="header-photo" alt="">
 			<div class="container">
 				<div class="row">
-					<div class="col-sm-12">
+					<div class="col-sm-12" id="header-text">
+						<h4>Promo Natal dan Tahun Baru 2018</h4>
 						<h1 class="bold">
-							IndiHome Triple Play<br>
-							Mulai dari <span class="red-text">Rp 330 Ribu/Bulan</span>
+							Dapatkan Potongan <span class="red-text">Rp 1 Juta</span><br>
+							Untuk Pembelian Tiket Di Annisatravel Dari <span class="red-text">Indihome</span>
 						</h1>
 						<p>
-							Nikmati layanan telepon, internet, dan TV Kabel sekaligus <br>
-							di rumah Anda.
+							*syarat dan ketentuan berlaku
 						</p>
-						<p><a href="#form-leads" class="onpage-link btn btn-danger" title="">Berlangganan Sekarang</a></p>
+						<p><a href="#form-leads" class="onpage-link btn btn-danger" title="">Dapatkan Sekarang</a></p>
 					</div>
 				</div>
 			</div>
@@ -77,7 +45,7 @@
 					<div class="row">
 						<div class="col-sm-6">
 							<h2><img src="images/indihome-fiber-main.png" class="img-responsive" alt=""></h2>
-							<p>IndiHome merupakan layanan digital terdepan dari Telkom Group, berupa paket Triple Play yang meliputi layanan komunikasi, data, serta <em>entertaiment</em> sekaligus, seperti telepon rumah, internet, dan televisi interaktif dengan teknologi <em>fiber optic</em>.</p>
+							<p>IndiHome merupakan layanan digital terdepan dari Telkom Group, berupa paket Triple-Play yang meliputi layanan komunikasi, data, serta <em>entertaiment</em> sekaligus, seperti telepon rumah, internet, dan televisi interaktif dengan teknologi <em>fiber optic</em>.</p>
 						</div>
 						<div class="col-sm-6">
 							<div class="video-wrap">
@@ -114,11 +82,10 @@
 				<div class="row">
 					<div class="col-md-5 col-sm-6">
 						<h2>
-							Dapatkan Layanan <br>
-							<span class="red-text">IndiHome Tripleplay</span> <br>
-							di Rumah Anda
+							Dapatkan potongan <br><span class="red-text">Rp 1 Juta</span><br>
+							dari Annisa Travel
 						</h2>
-						<form role="form" name="leads_form" id="leads_form" method="POST" action="func/insert-curl.php#form-leads">
+						<form role="form" name="leads_form" id="leads_form" method="POST" action="/form.php">
 							<div class="form-group">
 								<input type="text" name="name" value="" placeholder="Nama" class="form-control" required>
 							</div>
@@ -129,10 +96,9 @@
 								<input type="text" name="msisdn" value="" placeholder="Nomor Handphone" class="form-control" required>
 							</div>
 							<div class="form-group">
-								<input type="submit" name="" value="Langganan Sekarang" class="form-control btn btn-danger" required>
+								<input type="submit" name="" value="Dapatkan Sekarang" class="form-control btn btn-danger" required>
 							</div>
 						</form>
-						
 					</div>
 				</div>
 			</div>
@@ -143,9 +109,9 @@
 				<p class="text-center">IndiHome Fiber memberikan kemudahan bagi Anda untuk memilih paket-paket Internet Fiber, TV Interaktif dan Telepon Rumah sesuai kebutuhan Anda.</p>
 				<div class="row">
 					<div class="col-sm-6">
-						<p class="package-item" data-toggle="modal" data-target="#paket1"><img src="images/tripleplay.png" width="45" alt=""> <span>IndiHome Paket Deluxe - Triple Play</span></p>
-						<p class="package-item" data-toggle="modal" data-target="#paket2"><img src="images/tripleplay.png" width="45" alt=""> <span>IndiHome Paket Premium - Triple Play</span></p>
-						<p class="package-item" data-toggle="modal" data-target="#paket3"><img src="images/tripleplay.png" width="45" alt=""> <span>IndiHome Paket Merdeka - Triple Play</span></p>
+						<p class="package-item" data-toggle="modal" data-target="#paket1"><img src="images/tripleplay.png" width="45" alt=""> <span>IndiHome Paket Deluxe - Triple-Play</span></p>
+						<p class="package-item" data-toggle="modal" data-target="#paket2"><img src="images/tripleplay.png" width="45" alt=""> <span>IndiHome Paket Premium - Triple-Play</span></p>
+						<p class="package-item" data-toggle="modal" data-target="#paket3"><img src="images/tripleplay.png" width="45" alt=""> <span>IndiHome Paket Merdeka - Triple-Play</span></p>
 					</div>
 					<div class="col-sm-6">
 						<p class="package-item" data-toggle="modal" data-target="#paket4"><img src="images/dual-play-icon.png" width="45" alt=""> <span>IndiHome Paket Netizen 1 - Dual Play</span></p>
@@ -158,7 +124,14 @@
 
 	</main>
 
+	<div class="section">
+		<div class="container">
+			<p><center><img src="images/logo-metranet-tiny.png" class="img-responsive" alt=""></center></p>
+		</div>
+	</div>
+
 	<footer>
+
 		<div class="container">
 			<div class="">
 				<div class="row">
@@ -299,12 +272,13 @@
 	        <h4 class="modal-title">Terima Kasih</h4>
 	      </div>
 	      <div class="modal-body text-center">
-	      	<p>Pesan Anda telah kami terima. Kami akan segera menghubungi Anda.</p>
+	      	<p>Terima kasih anda sudah mendaftar untuk pemasangan Indihome.</p>
+			<p>tim teknis kami akan menghubungi anda 1x24 jam</p>
 	      </div>
 	    </div><!-- /.modal-content -->
 	  </div><!-- /.modal-dialog -->
 	</div><!-- /.modal -->
-
+	
 	<!-- Google Code for IndiHome Conversion Conversion Page -->
 	<script type="text/javascript">
 	/* <![CDATA[ */
@@ -323,7 +297,7 @@
 		<img height="1" width="1" style="border-style:none;" alt="" src="//www.googleadservices.com/pagead/conversion/842107730/?label=-fpfCKyO5HMQ0pbGkQM&amp;guid=ON&amp;script=0"/>
 	</div>
 	</noscript>
-	
+
 	<script type="text/javascript" src="js/jquery-1.11.1.min.js"></script>
 	<script type="text/javascript" src="js/bootstrap.min.js"></script>
 	<script type="text/javascript" src="js/index.js"></script>
@@ -366,9 +340,6 @@
 			}
 		});
 
-	</script>
-	<script>
-	  fbq('track', 'CompleteRegistration');
 	</script>
 </body>
 </html>
