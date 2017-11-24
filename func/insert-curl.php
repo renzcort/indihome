@@ -105,8 +105,7 @@ function insertDB($fields) {
 
 	if ($conn2->query($sql2) === TRUE) {
 		$success = 1;
-	    //header('Location: /?ok='.$success);
-		header('Location: https://indihome.co.id/subsystem/outlet-digital-channel/login?url=https://indihome.co.id/subsystem/outlet-digital-channel/registrasi-indihome?lat=&lon=&address=');
+	    header('Location:  https://indihome.co.id/subsystem/outlet-digital-channel/subscribe?name='.$name.'&msisdn='.$msisdn.'&email='.$email);
 	} else {
 	    echo "Error: " . $sql2 . "<br>" . $conn2->error;
 	}
