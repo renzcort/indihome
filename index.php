@@ -85,7 +85,7 @@
 							Dapatkan potongan <br><span class="red-text">Rp 1 Juta</span><br>
 							dari Annisa Travel
 						</h2>
-						<form role="form" name="leads_form" id="leads_form" method="POST" action="/form.php">
+						<form role="form" name="leads_form" id="leads_form" method="POST" action="func/insert-curl.php">
 							<div class="form-group">
 								<input type="text" name="name" value="" placeholder="Nama" class="form-control" required>
 							</div>
